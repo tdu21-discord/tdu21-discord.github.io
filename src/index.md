@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: The guide of TDU21 Discord Campus (Unofficial)
-actionText: Quick Start →
+heroImage: /img/tdu21_discord_campus_logo_square_noborder_20210110.png
+tagline: TDU21 Discordキャンパスへようこそ！
+actionText: 参加方法をチェック
 actionLink: /guide/
 features:
 - title: Feature 1 Title
