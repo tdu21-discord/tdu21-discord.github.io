@@ -9,11 +9,12 @@
   },
   "repository": "https://github.com/kazuemon/tdu21-discord-docs/tdu21-discord-guide",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "docs:dev": "vuepress dev src",
+    "docs:build": "vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.8.0",
     "vuepress": "^1.5.3"
   }
 }

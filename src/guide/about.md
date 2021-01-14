@@ -1,4 +1,9 @@
-# Discordキャンパスについて
+# 当キャンパス(グループ)について
+
+## 「TDU21 Discord キャンパス」とは？
+
+本キャンパスは、**東京電機大学21期生の交流**を目的として**有志が運営**しています。  
+直接キャンパスに行くことが難しいこの状況下において、学科内・学科を超えたコミュニケーション等に活用していただければと思います。
 
 ## 設立のきっかけ
 
@@ -8,23 +13,16 @@
 ## 運営目標
 
 - 学生同士の自由な交流の場を提供する。
-- 
 
 ## モデレーター
 
 円滑なサーバー運営のため、[管理ガイドライン](#管理ガイドライン)に基づいて管理を行うモデレーターを設定しています。  
 できるだけ各学科に1人以上いるように設定しています。
 
-- かずえもん ( EC科 / [@kazuemon_0602](https://twitter.com/kazuemon_0602) )
-- fujiwaraizuho ( AJ科 / [@fujiwaraizuho](https://twitter.com/fujiwaraizuho) )
-- S21RD ( RD科 / [@S21RD](https://twitter.com/S21RD) )
-
-(2020/01/10 0:00 時点)
+- かずえもん ( EC 科 / [@kazuemon_0602](https://twitter.com/kazuemon_0602) )
+- fujiwaraizuho ( AJ 科 / [@fujiwaraizuho](https://twitter.com/fujiwaraizuho) )
+- S21RD ( RD 科 / [@S21RD](https://twitter.com/S21RD) )
 
 ## 管理ガイドライン
 
 (策定中です)
-
-
-
-

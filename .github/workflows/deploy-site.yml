@@ -1,17 +1,27 @@
 name: deploy-site
-on: [push]
+on:
+  push:
+    branches:
+      - master
 jobs:
-  build-and-deploy:
+  deploy-site:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@master
 
-    - name: Build and Deploy
-      uses: jenkey2011/vuepress-deploy@dev
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: kazuemon/tdu21-discord-docs
-        TARGET_BRANCH: gh_pages
-        BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: src/.vuepress/dist/
+      - name: Setup NodeJS
+        uses: actions/setup-node@master
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build Site
+        run: yarn docs:build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: src/.vuepress/dist/
