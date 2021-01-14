@@ -38,7 +38,7 @@ module.exports = {
     [
       "meta",
       {
-        name: "op:image",
+        name: "og:image",
         content: "https://tdu21-discord.github.io/tdu21_discord_ogp.png",
       },
     ],
