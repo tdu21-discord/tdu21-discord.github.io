@@ -18,7 +18,7 @@ Discordのアカウントをお持ちでない場合は、[こちら](https://su
 
 下記画像をクリック/タップして Discord のサーバーに参加してください。
 
-[![join_banner](../.vuepress/assets/img/join_banner.png)](https://bit.ly/tdu21-discord)
+[![join_banner](../.vuepress/assets/img/join_banner.png)](/discord)
 
 ## 3. 学科を設定します
 
