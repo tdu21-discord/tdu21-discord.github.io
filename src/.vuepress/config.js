@@ -2,6 +2,7 @@ const { description } = require("../../package");
 const path = require("path");
 
 module.exports = {
+  lang: "ja",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -9,7 +10,8 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description:
+    "「TDU21 Discordキャンパス (非公式)」は東京電機大学21期生の交流を目的として、有志が運営しているDiscordサーバーです。",
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -23,6 +25,24 @@ module.exports = {
       "meta",
       { name: "apple-mobile-web-app-status-bar-style", content: "black" },
     ],
+    ["meta", { name: "og:type", content: "website" }],
+    ["meta", { name: "og:title", content: "" }],
+    [
+      "meta",
+      {
+        name: "og:description",
+        content:
+          "「TDU21 Discordキャンパス (非公式)」は東京電機大学21期生の交流を目的として、有志が運営しているDiscordサーバーです。",
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "op:image",
+        content: "https://tdu21-discord.github.io/tdu21_discord_ogp.png",
+      },
+    ],
+    ["meta", { name: "twitter:card", content: "summary_large_image" }],
   ],
 
   /**
@@ -48,7 +68,13 @@ module.exports = {
         title: "ガイド",
         collapsable: false,
         sidebarDepth: 2,
-        children: ["/guide/about", "/guide/rule", "/guide/join", "/guide/map"],
+        children: [
+          "/guide/about",
+          "/guide/rule",
+          "/guide/join",
+          "/guide/map",
+          "/guide/media",
+        ],
       },
     ],
   },

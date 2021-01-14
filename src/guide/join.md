@@ -18,17 +18,17 @@ Discordのアカウントをお持ちでない場合は、[こちら](https://su
 
 下記画像をクリック/タップして Discord のサーバーに参加してください。
 
-[![join_banner](../.vuepress/assets/join_banner.png)](https://bit.ly/tdu21-discord)
+[![join_banner](../.vuepress/assets/img/join_banner.png)](https://bit.ly/tdu21-discord)
 
 ## 3. 学科を設定します
 
 左のメニューから #学科設定 チャンネルに移動します。
 
-![join_flow_01](../.vuepress/assets/join_flow_01.png)
+![join_flow_01](../.vuepress/assets/img/join_flow_01.png)
 
 投稿されているメッセージの下に各学科のアイコンと数字が表示されている場所がありますので、**自分の学科のアイコンをクリック/タップ**してください。
 
-![join_flow_02](../.vuepress/assets/join_flow_02.png)
+![join_flow_02](../.vuepress/assets/img/join_flow_02.png)
 
 ::: warning 間違って選んでしまったら
 システムの仕様上、**一度選択した後に取り消しすることはできません**。
@@ -37,13 +37,13 @@ Discordのアカウントをお持ちでない場合は、[こちら](https://su
 
 正常に設定出来れば、**自分の名前の色が学部の色に変わり、「メンバー」と学科ロールが付与**されます。
 
-![join_flow_03](../.vuepress/assets/join_flow_03.png)
-![join_flow_04](../.vuepress/assets/join_flow_04.png)
+![join_flow_03](../.vuepress/assets/img/join_flow_03.png)
+![join_flow_04](../.vuepress/assets/img/join_flow_04.png)
 
 合わせて `#101_自己紹介` と `#2xx_[学科名]` チャンネルからメンションが送信されますので、まずは2つで自己紹介しましょう！
 
-![join_flow_05](../.vuepress/assets/join_flow_05.png)  
-![join_flow_06](../.vuepress/assets/join_flow_06.png)
+![join_flow_05](../.vuepress/assets/img/join_flow_05.png)  
+![join_flow_06](../.vuepress/assets/img/join_flow_06.png)
 
 ## 4. れっつ交流！
 

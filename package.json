@@ -2,12 +2,11 @@
   "name": "tdu21-discord-guide",
   "version": "0.0.1",
   "description": "The guide of TDU21 Discord Campus (Unofficial)",
-  "main": "index.js",
   "authors": {
     "name": "kazuemon",
     "email": "contact@kazuemon.me"
   },
-  "repository": "https://github.com/kazuemon/tdu21-discord-docs/tdu21-discord-guide",
+  "repository": "https://github.com/tdu21-discord/tdu21-discord.github.io",
   "scripts": {
     "docs:dev": "vuepress dev src",
     "docs:build": "vuepress build src"
