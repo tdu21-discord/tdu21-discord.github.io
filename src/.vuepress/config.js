@@ -26,7 +26,7 @@ module.exports = {
       { name: "apple-mobile-web-app-status-bar-style", content: "black" },
     ],
     ["meta", { name: "og:type", content: "website" }],
-    ["meta", { name: "og:title", content: "" }],
+    ["meta", { name: "og:title", content: "TDU21 Discordキャンパス (非公式)" }],
     [
       "meta",
       {
