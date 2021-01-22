@@ -10,14 +10,6 @@ export default ({
   router, // the router instance for the app
   siteData, // site metadata
 }) => {
-  router.addRoutes([
-    {
-      path: "/discord",
-      beforeEnter(to, from, next) {
-        window.location.href = "https://discord.com/invite/NfgywsxHcs";
-      },
-    },
-  ]);
 
   // GA from https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-google-analytics
 
@@ -43,4 +35,15 @@ export default ({
       ga('send', 'pageview')
     })
   }
+
+  router.addRoutes([
+    {
+      path: "/discord",
+      beforeEnter(to, from, next) {
+        ga('set', 'page', "/discord")
+        ga('send', 'pageview')
+        window.location.href = "https://discord.com/invite/NfgywsxHcs";
+      },
+    },
+  ]);
 };
