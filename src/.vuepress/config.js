@@ -73,10 +73,17 @@ module.exports = {
           "/guide/rule",
           "/guide/join",
           "/guide/map",
+          "/guide/mod-guideline",
           "/guide/media",
         ],
       },
     ],
+  },
+
+  markdown: {
+    extendMarkdown: md => {
+      md.use(require('markdown-it-multimd-table'))
+    }
   },
 
   /**
@@ -84,12 +91,5 @@ module.exports = {
    */
   plugins: [
     "@vuepress/plugin-back-to-top",
-    "@vuepress/plugin-medium-zoom",
-    [
-      "@vuepress/google-analytics",
-      {
-        ga: "UA-187333615-1",
-      },
-    ],
   ],
 };
