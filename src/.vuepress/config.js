@@ -40,9 +40,10 @@ module.exports = {
       {
         name: "og:image",
         content: "https://tdu21-discord.github.io/tdu21_discord_ogp.png",
-      },
+      }
     ],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
+    ["script", { src: "https://www.googletagmanager.com/gtag/js?id=UA-187333615-1" }]
   ],
 
   /**
