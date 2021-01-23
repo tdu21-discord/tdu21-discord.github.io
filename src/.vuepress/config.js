@@ -39,11 +39,14 @@ module.exports = {
       "meta",
       {
         name: "og:image",
-        content: "https://tdu21-discord.github.io/tdu21_discord_ogp.png",
-      }
+        content: "https://tdu21-discord.github.io/img/tdu21_discord_ogp.png",
+      },
     ],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
-    ["script", { src: "https://www.googletagmanager.com/gtag/js?id=UA-187333615-1" }]
+    [
+      "script",
+      { src: "https://www.googletagmanager.com/gtag/js?id=UA-187333615-1" },
+    ],
   ],
 
   /**
@@ -82,15 +85,13 @@ module.exports = {
   },
 
   markdown: {
-    extendMarkdown: md => {
-      md.use(require('markdown-it-multimd-table'))
-    }
+    extendMarkdown: (md) => {
+      md.use(require("markdown-it-multimd-table"));
+    },
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: [
-    "@vuepress/plugin-back-to-top",
-  ],
+  plugins: ["@vuepress/plugin-back-to-top"],
 };
