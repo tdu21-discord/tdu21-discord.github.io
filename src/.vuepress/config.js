@@ -61,27 +61,28 @@ module.exports = {
     docsDir: "src",
     docsBranch: "main",
     editLinkText: "このページを編集する",
-    nav: [
-      {
-        text: "ガイド",
-        link: "/guide/about",
-      },
-    ],
+    sidebarDepth: 2,
     sidebar: [
+      "/about",
+      "/howtojoin",
+      "/rule",
+      "/guide",
+      "/map",
       {
-        title: "ガイド",
+        title: "その他",
         collapsable: false,
-        sidebarDepth: 2,
-        children: [
-          "/guide/about",
-          "/guide/rule",
-          "/guide/join",
-          "/guide/map",
-          "/guide/mod-guideline",
-          "/guide/media",
-        ],
+        sidebarDepth: 0,
+        children: ["/modelators", "/mod-guideline", "/media"],
       },
     ],
+  },
+
+  configureWebpack: {
+    resolve: {
+      alias: {
+        "@assets": path.resolve(__dirname, "assets"),
+      },
+    },
   },
 
   markdown: {
@@ -93,5 +94,5 @@ module.exports = {
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: ["@vuepress/plugin-back-to-top"],
+  plugins: [],
 };

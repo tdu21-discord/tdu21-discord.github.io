@@ -10,32 +10,41 @@ export default ({
   router, // the router instance for the app
   siteData, // site metadata
 }) => {
-
   // GA from https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-google-analytics
 
-  if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined') {
-
+  if (process.env.NODE_ENV === "production" && typeof window !== "undefined") {
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-187333615-1');
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-187333615-1");
 
-    router.afterEach(function (to, from) {
-      if (to.path !== from.path){
-        gtag('event', 'page_view', {
-          page_path: to.path
-        })
+    router.afterEach(function(to, from) {
+      if (to.path !== from.path) {
+        gtag("event", "page_view", {
+          page_path: to.path,
+        });
       }
-    })
+    });
 
     router.addRoutes([
       {
         path: "/discord",
         beforeEnter(to, from, next) {
-          gtag('event', 'click_join_link', {
-            'event_category': 'engagement'
-          })
-          window.location.href = "https://discord.com/invite/NfgywsxHcs";
+          gtag("event", "click_join_link", {
+            event_category: "engagement",
+          });
+          window.location.href = "https://discord.gg/NvrN6uaYxf";
+        },
+      },
+    ]);
+  } else {
+    router.addRoutes([
+      {
+        path: "/discord",
+        beforeEnter(to, from, next) {
+          window.location.href = "https://discord.gg/NvrN6uaYxf";
         },
       },
     ]);
