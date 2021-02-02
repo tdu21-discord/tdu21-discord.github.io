@@ -15,7 +15,7 @@
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.8.0",
     "markdown-it-multimd-table": "^4.0.3",
-    "vuepress": "^1.5.3"
+    "vuepress": "^1.8.0"
   },
   "dependencies": {
     "@ditdot-dev/vue-flow-form": "^1.1.6"
