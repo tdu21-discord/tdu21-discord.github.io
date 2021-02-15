@@ -11,7 +11,7 @@
 - お知らせ
   - モデレーターから全体周知する内容を投稿します。
 - 学科設定
-  - 使い方は [参加方法](/join) にて
+  - 使い方は [参加方法](/howtojoin) にて
 - 電大いんふぉ
   - TDUの公式Twitter([@TDU_webmaster](https://twitter.com/TDU_webmaster))のツイートを自動で転送します。
 
