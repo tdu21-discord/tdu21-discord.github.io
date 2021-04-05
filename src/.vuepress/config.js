@@ -39,7 +39,7 @@ module.exports = {
       "meta",
       {
         name: "og:image",
-        content: "https://tdu21-discord.github.io/img/tdu21_discord_ogp.png",
+        content: "https://tdu21-discord.org/img/tdu21_discord_ogp.png",
       },
     ],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
