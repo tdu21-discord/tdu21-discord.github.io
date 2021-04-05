@@ -64,6 +64,7 @@ module.exports = {
     sidebarDepth: 2,
     sidebar: [
       "/about",
+      "/verify-reg",
       "/howtojoin",
       "/rule",
       "/guide",
