@@ -13,7 +13,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.8.2",
     "markdown-it-multimd-table": "^4.0.3",
     "vuepress": "^1.8.2"
   },
