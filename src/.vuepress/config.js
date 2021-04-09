@@ -64,11 +64,13 @@ module.exports = {
     sidebarDepth: 2,
     sidebar: [
       "/about",
+      "/rule",
       "/verify-reg",
       "/howtojoin",
-      "/rule",
-      "/guide",
       "/map",
+      "/guide",
+      "/support",
+      "/privacy",
       {
         title: "その他",
         collapsable: false,
