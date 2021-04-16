@@ -5,29 +5,7 @@
 
 ## 1. まずは学科を設定しましょう
 
-::: danger 注意
-学籍統合認証システム導入後は学科は自動で設定されますので、その場合は手順1はスキップしてください。
-:::
-
-参加後、**学科を設定するまではチャットできないようになっています**ので、左のメニューから `#学科設定` チャンネルに移動します。  
-
-<img src="@assets/img/guide/sp_open_menu.png" style="margin-top: 1rem;max-height: 300px;"/>
-
-<img src="@assets/img/guide/sp_open_gakka_ch.png" style="margin-top: 1rem;max-height: 300px;"/>
-
-投稿されているメッセージの下に各学科のアイコンと数字が表示されている場所がありますので、**自分の学科のアイコンをクリック/タップ**してください。
-
-![gakka_setting](@assets/img/guide/gakka_setting.png)
-
-::: warning 間違って選んでしまったら
-システムの仕様上、**一度選択した後に取り消しすることはできません**。  
-手動で対応いたしますので、モデレーターにご連絡ください。
-:::
-
-正常に設定出来れば、**自分の名前の色が学部の色に変わり、「メンバー」と学科ロールが付与**されます。
-
-![user_colored](@assets/img/guide/user_colored.png)
-![user_added_role](@assets/img/guide/user_added_role.png)
+[こちら](/verify-reg) をチェックしてください。
 
 ## 2. 自己紹介しましょう
 
@@ -88,6 +66,6 @@ Discordにはチャットの投稿に絵文字を付けられる「**リアク�
 ![optional_channel_join](@assets/img/guide/optional_channel_join.png)
 
 ::: tip Discord の使い方がわからないときは
-Discordキャンパス1号館`#106_Discord の使い方`にて質問してみましょう！  
+Discordキャンパス1号館`#1105_Discord の使い方`にて質問してみましょう！  
 Discord公式の[初心者ガイド](https://support.discord.com/hc/ja/articles/360045138571-Discord-%E5%88%9D%E5%BF%83%E8%80%85%E3%82%AC%E3%82%A4%E3%83%89)もぜひチェックしてみてください:thumbsup:
 :::
