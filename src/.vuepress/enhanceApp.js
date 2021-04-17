@@ -35,7 +35,7 @@ export default ({
           gtag("event", "click_join_link", {
             event_category: "engagement",
           });
-          window.location.href = "https://discord.gg/NvrN6uaYxf";
+          window.location.href = "https://discord.gg/cSvGt2uuMf";
         },
       },
     ]);
@@ -44,7 +44,7 @@ export default ({
       {
         path: "/discord",
         beforeEnter(to, from, next) {
-          window.location.href = "https://discord.gg/NvrN6uaYxf";
+          window.location.href = "https://discord.gg/cSvGt2uuMf";
         },
       },
     ]);
