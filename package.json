@@ -1,10 +1,10 @@
 {
   "name": "tdu21-discord-guide",
   "version": "0.0.1",
-  "description": "The guide of TDU21 Discord Campus (Unofficial)",
+  "description": "The Guide of TDU21 Unofficial Discord Campus",
   "authors": {
     "name": "kazuemon",
-    "email": "contact@kazuemon.me"
+    "email": "contact@k6n.jp"
   },
   "repository": "https://github.com/tdu21-discord/tdu21-discord.github.io",
   "scripts": {

@@ -6,12 +6,12 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "TDU21 Discordキャンパス (非公式)",
+  title: "TDU21 非公式Discordキャンパス",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
   description:
-    "「TDU21 Discordキャンパス (非公式)」は東京電機大学21期生の交流を目的として、有志が運営しているDiscordサーバーです。",
+    "「TDU21 非公式Discordキャンパス」は東京電機大学21期生の交流を目的として、有志が運営しているDiscordサーバーです。",
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -26,13 +26,13 @@ module.exports = {
       { name: "apple-mobile-web-app-status-bar-style", content: "black" },
     ],
     ["meta", { name: "og:type", content: "website" }],
-    ["meta", { name: "og:title", content: "TDU21 Discordキャンパス (非公式)" }],
+    ["meta", { name: "og:title", content: "TDU21 非公式Discordキャンパス" }],
     [
       "meta",
       {
         name: "og:description",
         content:
-          "「TDU21 Discordキャンパス (非公式)」は東京電機大学21期生の交流を目的として、有志が運営しているDiscordサーバーです。",
+          "「TDU21 非公式Discordキャンパス」は東京電機大学21期生の交流を目的として、有志が運営しているDiscordサーバーです。",
       },
     ],
     [
