@@ -16,8 +16,5 @@
     "markdown-it-multimd-table": "^4.0.3",
     "vuepress": "^1.8.2"
   },
-  "dependencies": {
-    "@ditdot-dev/vue-flow-form": "^2.1.0",
-    "vue-light-timeline": "^1.0.3"
-  }
+  "dependencies": {}
 }
