@@ -911,12 +911,11 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
-"@ditdot-dev/vue-flow-form@^1.1.7":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@ditdot-dev/vue-flow-form/-/vue-flow-form-1.1.7.tgz#7d9e2d8da1f34b6c09be2933b89c549663d9f02b"
-  integrity sha512-Z0AuUjeXdKIDKAZ4pRCRfUK5wAWB0Z5Bj9nVL8I628qhW++4R0GPjpAPs9ct4N/mOQWaujLSOXIryJeq6YPmPg==
+"@ditdot-dev/vue-flow-form@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@ditdot-dev/vue-flow-form/-/vue-flow-form-2.1.0.tgz#fd4fac4b62155976ea4b821b79cf56f5f4fd40b9"
+  integrity sha512-DVO1lc+8+251eNlqrvQc1UXCh6872ii6P6QJMjG5YgESiM2hAi+3NbojxuejN4ds6JtnHJeqGlpCpPFWT4nGpA==
   dependencies:
-    es6-object-assign "^1.1.0"
     vue-textarea-autosize "^1.1.1"
     vue-the-mask "^0.11.1"
 
@@ -3227,11 +3226,6 @@ es-to-primitive@^1.2.1:
     is-callable "^1.1.4"
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
-
-es6-object-assign@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/es6-object-assign/-/es6-object-assign-1.1.0.tgz#c2c3582656247c39ea107cb1e6652b6f9f24523c"
-  integrity sha1-wsNYJlYkfDnqEHyx5mUrb58kUjw=
 
 es6-promise@^4.1.0:
   version "4.2.8"
@@ -7704,6 +7698,11 @@ vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
+
+vue-light-timeline@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/vue-light-timeline/-/vue-light-timeline-1.0.3.tgz#0270adc8075402d4b34252774869dff226882ea3"
+  integrity sha512-L84+qFqx+1sQCIs1dvUjsuqDrENmV+gaGfC8O0pz+sUxAhJQVR5jTySFXfOTIPvG/j6rNIFlgQCXigx8jGP6pA==
 
 vue-loader@^15.7.1:
   version "15.9.8"

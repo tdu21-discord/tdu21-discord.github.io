@@ -17,6 +17,7 @@
     "vuepress": "^1.8.2"
   },
   "dependencies": {
-    "@ditdot-dev/vue-flow-form": "^1.1.7"
+    "@ditdot-dev/vue-flow-form": "^2.1.0",
+    "vue-light-timeline": "^1.0.3"
   }
 }
