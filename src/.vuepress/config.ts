@@ -1,23 +1,14 @@
-const { description } = require("../../package");
-const path = require("path");
+import { defineUserConfig } from 'vuepress';
+import type { DefaultThemeOptions } from 'vuepress';
+// @ts-ignore
+import multiMdTable from 'markdown-it-multimd-table';
+import path from 'path';
 
-module.exports = {
-  lang: "ja",
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
-   */
-  title: "TDU21 非公式Discordキャンパス",
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
-  description:
-    "「TDU21 非公式Discordキャンパス」は東京電機大学21期生の交流を目的として、有志が運営しているDiscordサーバーです。",
-
-  /**
-   * Extra tags to be injected to the page HTML `<head>`
-   *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
-   */
+export default defineUserConfig<DefaultThemeOptions>({
+  // Site
+  lang: 'ja',
+  title: 'TDU21 非公式Discordキャンパス',
+  description: '「TDU21 非公式Discordキャンパス」は東京電機大学21期生の交流を目的として、有志が運営しているDiscordサーバーです。',
   head: [
     ["meta", { name: "theme-color", content: "#164F9E" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
@@ -48,14 +39,11 @@ module.exports = {
       { src: "https://www.googletagmanager.com/gtag/js?id=UA-187333615-1" },
     ],
   ],
-
-  /**
-   * Theme configuration, here is the default theme configuration for VuePress.
-   *
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
-   */
+  // Theme
+  theme: '@vuepress/theme-default',
   themeConfig: {
-    search: false,
+    logo: '/img/logo/tdu21_discord_logo_square_bordered-min.png',
+    // search: false,
     repo: "tdu21-discord/tdu21-discord.github.io",
     editLinks: true,
     docsDir: "src",
@@ -72,30 +60,28 @@ module.exports = {
       "/support",
       "/privacy",
       {
-        title: "その他",
-        collapsable: false,
-        sidebarDepth: 0,
+        text: "その他",
+        collapsible: true,
         children: ["/modelators", "/mod-guideline", "/media"],
       },
     ],
   },
 
-  configureWebpack: {
-    resolve: {
-      alias: {
-        "@assets": path.resolve(__dirname, "assets"),
+  clientAppEnhanceFiles: path.resolve(__dirname, "appEnhance.ts"),
+
+  alias: {
+    "@assets": path.resolve(__dirname, "assets"),
+  },
+
+  extendsMarkdown: (md) => {
+    md.use(multiMdTable);
+  },
+  plugins: [
+    [
+      '@vuepress/plugin-google-analytics',
+      {
+        id: 'G-4PKV5C7NZE',
       },
-    },
-  },
-
-  markdown: {
-    extendMarkdown: (md) => {
-      md.use(require("markdown-it-multimd-table"));
-    },
-  },
-
-  /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-   */
-  plugins: [],
-};
+    ],
+  ]
+})
