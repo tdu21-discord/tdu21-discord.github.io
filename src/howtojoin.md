@@ -11,7 +11,7 @@
 
 ## Step.2 - サーバーに参加する
 
-[こちら](/discord)をクリックするか、アプリの左側のメニューの＋ボタンを押して出てくる画面に招待コード `cSvGt2uuMf` を入力してサーバーに参加してください。
+[こちら](/discord.md)をクリックするか、アプリの左側のメニューの＋ボタンを押して出てくる画面に招待コード `cSvGt2uuMf` を入力してサーバーに参加してください。
 
 <img src="@assets/img/howtojoin/discord-create.png" style="max-height: 300px;"><br>
 <img src="@assets/img/howtojoin/discord-code-form.png" style="max-height: 300px;">
