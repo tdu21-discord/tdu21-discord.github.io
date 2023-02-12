@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-58a132cd","path":"/mod-guideline.html","title":"管理ガイドライン","lang":"ja","frontmatter":{},"headers":[],"git":{"updatedTime":1676192344000,"contributors":[{"name":"kazuemon","email":"git@k6n.jp","commits":1}]},"filePathRelative":"mod-guideline.md"}');export{e as data};

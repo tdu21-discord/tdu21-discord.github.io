@@ -1,1 +1,0 @@
-const e={key:"v-6b81d380",path:"/verify-reg.html",title:"\u5B66\u7C4D\u7D71\u5408\u8A8D\u8A3C\u30B7\u30B9\u30C6\u30E0\u306B\u3064\u3044\u3066",lang:"ja",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1648303305e3,contributors:[{name:"\u304B\u305A\u3048\u3082\u3093",email:"git@k6n.jp",commits:1}]},filePathRelative:"verify-reg.md"};export{e as data};

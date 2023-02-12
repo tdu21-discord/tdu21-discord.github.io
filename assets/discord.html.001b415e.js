@@ -1,1 +1,0 @@
-const t={key:"v-de22b6b4",path:"/discord.html",title:"",lang:"ja",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1648303305e3,contributors:[{name:"\u304B\u305A\u3048\u3082\u3093",email:"git@k6n.jp",commits:1}]},filePathRelative:"discord.md"};export{t as data};

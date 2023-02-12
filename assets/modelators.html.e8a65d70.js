@@ -1,1 +1,0 @@
-const t={key:"v-2d8008ec",path:"/modelators.html",title:"\u30E2\u30C7\u30EC\u30FC\u30BF\u30FC",lang:"ja",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1648303305e3,contributors:[{name:"\u304B\u305A\u3048\u3082\u3093",email:"git@k6n.jp",commits:1}]},filePathRelative:"modelators.md"};export{t as data};

@@ -1,1 +1,0 @@
-const e={key:"v-58a132cd",path:"/mod-guideline.html",title:"\u7BA1\u7406\u30AC\u30A4\u30C9\u30E9\u30A4\u30F3",lang:"ja",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1648303305e3,contributors:[{name:"\u304B\u305A\u3048\u3082\u3093",email:"git@k6n.jp",commits:1}]},filePathRelative:"mod-guideline.md"};export{e as data};
