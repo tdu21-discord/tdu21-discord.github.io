@@ -1,10 +1,9 @@
-import { defineUserConfig } from 'vuepress';
-import type { DefaultThemeOptions } from 'vuepress';
-// @ts-ignore
+import { defaultTheme, defineUserConfig } from 'vuepress';
 import multiMdTable from 'markdown-it-multimd-table';
 import path from 'path';
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
 
-export default defineUserConfig<DefaultThemeOptions>({
+export default defineUserConfig({
   // Site
   lang: 'ja',
   title: 'TDU21 非公式Discordキャンパス',
@@ -40,12 +39,11 @@ export default defineUserConfig<DefaultThemeOptions>({
     ],
   ],
   // Theme
-  theme: '@vuepress/theme-default',
-  themeConfig: {
+  theme: defaultTheme({
     logo: '/img/logo/tdu21_discord_logo_square_bordered-min.png',
     // search: false,
     repo: "tdu21-discord/tdu21-discord.github.io",
-    editLinks: true,
+    editLink: true,
     docsDir: "src",
     docsBranch: "main",
     editLinkText: "このページを編集する",
@@ -65,9 +63,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         children: ["/modelators", "/mod-guideline", "/media"],
       },
     ],
-  },
-
-  clientAppEnhanceFiles: path.resolve(__dirname, "appEnhance.ts"),
+  }),
 
   alias: {
     "@assets": path.resolve(__dirname, "assets"),
@@ -77,11 +73,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     md.use(multiMdTable);
   },
   plugins: [
-    [
-      '@vuepress/plugin-google-analytics',
-      {
-        id: 'G-4PKV5C7NZE',
-      },
-    ],
+    googleAnalyticsPlugin({
+      id: 'G-4PKV5C7NZE',
+    })
   ]
 })
