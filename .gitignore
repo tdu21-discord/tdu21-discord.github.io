@@ -1,4 +1,4 @@
 node_modules
 .temp
-.cache
-dist
+src/.vitepress/cache
+src/.vitepress/dist
