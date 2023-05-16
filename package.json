@@ -1,6 +1,6 @@
 {
-  "name": "tdu21-discord-docs-v2",
-  "version": "2.1.0",
+  "name": "tdu21-discord-docs-v3",
+  "version": "3.0.0",
   "description": "The Guide of TDU21 Unofficial Discord Campus",
   "authors": {
     "name": "kazuemon",
@@ -8,14 +8,13 @@
   },
   "repository": "https://github.com/tdu21-discord/tdu21-discord.github.io",
   "scripts": {
-    "docs:dev": "vuepress dev src",
-    "docs:build": "vuepress build src"
+    "docs:dev": "vitepress dev src",
+    "docs:build": "vitepress build src"
   },
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "2.0.0-beta.60",
     "markdown-it-multimd-table": "^4.2.0",
     "typescript": "^4.9.5",
-    "vuepress": "2.0.0-beta.60"
+    "vitepress": "^1.0.0-alpha.75"
   }
 }

@@ -1,6 +1,6 @@
 # TDU21 Advent Calendar 2021 概要
 
-![WebBanner](@assets/img/adv-2021/TDU21Adv_WebBanner.png)
+![WebBanner](./assets/img/adv-2021/TDU21Adv_WebBanner.png)
 
 ## 開催趣旨
 
