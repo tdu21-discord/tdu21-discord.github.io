@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-6b81d380","path":"/verify-reg.html","title":"学籍統合認証システムについて","lang":"ja","frontmatter":{},"headers":[],"git":{"updatedTime":1676192344000,"contributors":[{"name":"kazuemon","email":"git@k6n.jp","commits":1}]},"filePathRelative":"verify-reg.md"}');export{e as data};

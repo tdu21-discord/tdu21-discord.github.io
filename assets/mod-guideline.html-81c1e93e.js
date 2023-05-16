@@ -1,1 +1,0 @@
-import{_ as t,p as o,q as a,R as e,t as n}from"./framework-204010b2.js";const s={},c=e("h1",{id:"管理ガイドライン",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#管理ガイドライン","aria-hidden":"true"},"#"),n(" 管理ガイドライン")],-1),d=e("p",null,"(策定中)",-1),r=[c,d];function _(i,l){return o(),a("div",null,r)}const u=t(s,[["render",_],["__file","mod-guideline.html.vue"]]);export{u as default};
