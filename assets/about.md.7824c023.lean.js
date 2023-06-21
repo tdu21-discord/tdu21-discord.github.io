@@ -1,1 +1,0 @@
-import{_ as a,o as r,c as t,O as o}from"./chunks/framework.0401b637.js";const p=JSON.parse('{"title":"当キャンパスについて","description":"","frontmatter":{},"headers":[],"relativePath":"about.md","filePath":"about.md"}'),e={name:"about.md"},s=o("",15),n=[s];function i(h,d,l,c,_,u){return r(),t("div",null,n)}const b=a(e,[["render",i]]);export{p as __pageData,b as default};

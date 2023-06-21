@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,O as r}from"./chunks/framework.ec994f6f.js";const f=JSON.parse('{"title":"キャンパスルール","description":"","frontmatter":{},"headers":[],"relativePath":"rule.md","filePath":"rule.md"}'),l={name:"rule.md"},o=r("",9),i=[o];function n(s,_,h,c,d,u){return e(),t("div",null,i)}const p=a(l,[["render",n]]);export{f as __pageData,p as default};

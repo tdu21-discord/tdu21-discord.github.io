@@ -1,1 +1,0 @@
-import{_ as l,o as t,c as r,O as o}from"./chunks/framework.0401b637.js";const b=JSON.parse('{"title":"キャンパスマップ","description":"","frontmatter":{},"headers":[],"relativePath":"map.md","filePath":"map.md"}'),i={name:"map.md"},a=o("",41),s=[a];function n(e,x,g,h,u,c){return t(),r("div",null,s)}const _=l(i,[["render",n]]);export{b as __pageData,_ as default};
