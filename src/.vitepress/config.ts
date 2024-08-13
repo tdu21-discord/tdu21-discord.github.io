@@ -7,6 +7,7 @@ export default defineConfig({
   description: '「TDU21 非公式Discordキャンパス」は東京電機大学21期生の交流を目的として、有志が運営しているDiscordサーバーです。',
   themeConfig: {
     logo: '/img/logo/tdu21_discord_logo_square_bordered-min.png',
+    siteTitle: 'TDU21-Discord',
     sidebarMenuLabel: 'メニュー',
     darkModeSwitchLabel: "カラーテーマ",
     returnToTopLabel: "トップに戻る",
