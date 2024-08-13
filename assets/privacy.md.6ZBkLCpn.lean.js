@@ -1,0 +1,1 @@
+import{_ as a,c as e,o,a2 as t}from"./chunks/framework.DEnmJWvs.js";const g=JSON.parse('{"title":"プライバシーについて","description":"","frontmatter":{},"headers":[],"relativePath":"privacy.md","filePath":"privacy.md"}'),r={name:"privacy.md"},l=t("",10),i=[l];function s(c,n,p,_,d,h){return o(),e("div",null,i)}const m=a(r,[["render",s]]);export{g as __pageData,m as default};

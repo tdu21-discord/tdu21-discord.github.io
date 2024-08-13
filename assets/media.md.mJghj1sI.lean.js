@@ -1,0 +1,1 @@
+import{_ as l,c as a,o,a2 as e}from"./chunks/framework.DEnmJWvs.js";const g=JSON.parse('{"title":"メディアツール","description":"","frontmatter":{},"headers":[],"relativePath":"media.md","filePath":"media.md"}'),r={name:"media.md"},i=e("",14),t=[i];function s(c,n,d,u,_,h){return o(),a("div",null,t)}const p=l(r,[["render",s]]);export{g as __pageData,p as default};

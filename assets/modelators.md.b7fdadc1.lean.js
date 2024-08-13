@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as r,O as a}from"./chunks/framework.ec994f6f.js";const p=JSON.parse('{"title":"モデレーター","description":"","frontmatter":{},"headers":[],"relativePath":"modelators.md","filePath":"modelators.md"}'),o={name:"modelators.md"},d=a("",3),_=[d];function s(h,i,n,l,c,m){return e(),r("div",null,_)}const u=t(o,[["render",s]]);export{p as __pageData,u as default};

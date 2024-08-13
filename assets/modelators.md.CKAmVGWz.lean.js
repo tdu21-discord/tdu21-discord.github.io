@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as r,a2 as a}from"./chunks/framework.DEnmJWvs.js";const p=JSON.parse('{"title":"モデレーター","description":"","frontmatter":{},"headers":[],"relativePath":"modelators.md","filePath":"modelators.md"}'),o={name:"modelators.md"},d=a("",3),_=[d];function i(n,s,h,l,c,m){return r(),e("div",null,_)}const u=t(o,[["render",i]]);export{p as __pageData,u as default};
