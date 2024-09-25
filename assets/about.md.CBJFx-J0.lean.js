@@ -1,1 +1,0 @@
-import{_ as a,c as r,o as t,a2 as o}from"./chunks/framework.DEnmJWvs.js";const p=JSON.parse('{"title":"当キャンパスについて","description":"","frontmatter":{},"headers":[],"relativePath":"about.md","filePath":"about.md"}'),e={name:"about.md"},s=o("",15),n=[s];function i(h,d,l,c,_,u){return t(),r("div",null,n)}const b=a(e,[["render",i]]);export{p as __pageData,b as default};
